@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char small;
+    cout << "Enter small alphabet (a-z): ";
+    cin >> small;
+    char capital = small - 32;
+    cout << "Upper case: " << capital << endl;
+    return 0;
+}
+// Output:
+// Enter small alphabet (a-z): b
+// Upper case: B
