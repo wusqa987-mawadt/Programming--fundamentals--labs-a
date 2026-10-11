@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char letter;
+    letter = 'A';
+    letter = 'B';
+    cout << letter << "\n";
+    return 0;
+}
+// Output:
+// B
